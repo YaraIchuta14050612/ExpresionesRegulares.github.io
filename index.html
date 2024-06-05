@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video Player</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+    }
+    
+    .container {
+        max-width: 800px;
+        margin: 50px auto;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+    
+    video {
+        width: 100%;
+        display: block;
+    }
+    
+    .controls {
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .controls button {
+        background-color: transparent;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    .controls button:hover {
+        color: #ccc;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <p>Yara Ichuta</p>
+<p>INF-113</p>
+    <h1>EXPRESIONES REGULARES</h1>
+    <video controls>
+        <source src="expresiones regulares.mp4" type="video/mp4">
+    </video>
+    <h1>EJEMPLO DE EXPRESIONES REGULARES</h1>
+    <video controls>
+        <source src="ejemplo expresiones regulares.mp4" type="video/mp4">
+    </video>
+</div>
+</body>
+</html>
